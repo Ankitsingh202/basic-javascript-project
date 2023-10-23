@@ -1,0 +1,101 @@
+/* Reset some default browser styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply styles to the body */
+body {
+    background-color: #212121;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* Style the navigation links */
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Style the container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style the h1 */
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Style the form */
+form {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Style form inputs and labels */
+form p {
+    margin: 10px 0;
+}
+
+form label {
+    display: block;
+    color: #fff;
+    font-weight: bold;
+}
+
+form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #444;
+    color: #fff;
+}
+
+/* Style the Calculate button */
+button {
+    background-color: #0077FF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0055CC;
+}
+
+/* Style the result and weight guide sections */
+#results, #weight-guide {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #444;
+    border-radius: 5px;
+}
+
+#weight-guide h3 {
+    font-size: 24px;
+}
+
+#weight-guide p {
+    font-size: 18px;
+    margin: 5px 0;
+}
