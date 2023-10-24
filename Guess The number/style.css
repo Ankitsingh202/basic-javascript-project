@@ -1,0 +1,76 @@
+/* Reset some default margin and padding */
+html, body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #212121;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+#wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+p {
+    margin: 10px 0;
+}
+
+form.form {
+    margin: 20px 0;
+}
+
+label.guess {
+    display: block;
+    font-weight: bold;
+}
+
+input.guessField {
+    padding: 5px;
+    width: 50px;
+}
+
+input.guessSubmit {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+div.resultParas {
+    background-color: #333;
+    padding: 10px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+p.lowOrHi {
+    font-weight: bold;
+}
+
+/* Style the anchor tag for the "Home" link */
+nav a[arial-current="page"] {
+    font-weight: bold;
+    text-decoration: underline;
+}
